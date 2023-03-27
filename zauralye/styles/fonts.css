@@ -1,0 +1,48 @@
+/* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Центровка */
+
+.ctrl-l{
+    text-align: start;
+}
+.ctrl-e{
+    text-align: center;
+}
+.ctrl-r{
+    text-align: end;
+}
+.ctrl-j{
+    text-align: justify;
+}
+
+/* Начертания */
+
+.non-style{
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+
+/* Декорирование */
+
+.non-dec{
+    text-decoration: none
+}
+.underline{
+    text-decoration: underline;
+}
+
+/* Особые классы */
+
+.mini-text{
+    margin: 10px 0;
+    font-size: 12px;
+}
